@@ -3,7 +3,7 @@ using LibraryDecorator;
 namespace TestDecorators
 {
     [TestClass]
-    public class LastNBytesStreamDecoratorTests
+    public class TestsStream
     {
 
         [TestMethod]
