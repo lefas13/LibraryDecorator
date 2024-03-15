@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryDecorator", "Library
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "laba2", "..\laba2\laba2.csproj", "{ABCF6005-5F2A-439A-90CC-7DAB2ECFEFF5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestDecorators", "..\TestDecorators\TestDecorators.csproj", "{0722D612-D688-47AF-8590-024BCB328E89}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{ABCF6005-5F2A-439A-90CC-7DAB2ECFEFF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ABCF6005-5F2A-439A-90CC-7DAB2ECFEFF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ABCF6005-5F2A-439A-90CC-7DAB2ECFEFF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0722D612-D688-47AF-8590-024BCB328E89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0722D612-D688-47AF-8590-024BCB328E89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0722D612-D688-47AF-8590-024BCB328E89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0722D612-D688-47AF-8590-024BCB328E89}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
