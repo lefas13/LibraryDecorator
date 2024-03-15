@@ -5,6 +5,8 @@ VisualStudioVersion = 17.7.34024.191
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryDecorator", "LibraryDecorator.csproj", "{857BB9C3-60A8-405E-B20D-50AFC5423F9B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "laba2", "..\laba2\laba2.csproj", "{ABCF6005-5F2A-439A-90CC-7DAB2ECFEFF5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{857BB9C3-60A8-405E-B20D-50AFC5423F9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{857BB9C3-60A8-405E-B20D-50AFC5423F9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{857BB9C3-60A8-405E-B20D-50AFC5423F9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABCF6005-5F2A-439A-90CC-7DAB2ECFEFF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABCF6005-5F2A-439A-90CC-7DAB2ECFEFF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABCF6005-5F2A-439A-90CC-7DAB2ECFEFF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABCF6005-5F2A-439A-90CC-7DAB2ECFEFF5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
