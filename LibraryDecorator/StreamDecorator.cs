@@ -56,6 +56,7 @@
         /// <returns></returns>
         public override int Read(byte[] buffer, int offset, int count)
         {
+            Thread.Sleep(1500);
             // Записываем текущее время перед вызовом метода Read у объекта класса Stream
             DateTime end = DateTime.Now;
 

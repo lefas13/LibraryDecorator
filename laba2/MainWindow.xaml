@@ -20,7 +20,12 @@
             </Grid.ColumnDefinitions>
             <Button Margin="10,35,10,35" HorizontalAlignment="Left" Grid.Column="0" Click="Button_Click">Выбрать файл</Button>
             <TextBox x:Name="TextBoxFilePath" VerticalAlignment="Center" Margin="100,0,0,0" IsReadOnly="True" Width="400"/>
-            <Button HorizontalContentAlignment="Center" Margin="40,35,40,35" Grid.Column="2" Content="Вывести время" Click="GetTime"/>
+            <Button HorizontalContentAlignment="Center" Margin="40,358,40,-288" Grid.Column="1" Content="Вывести время" Click="GetTime"/>
+            <ComboBox x:Name="ComboBoxStreamType" Grid.Column="2" Margin="40,35,40,35" SelectionChanged="ComboBoxStreamType_SelectionChanged">
+                <ComboBoxItem Content="FileStreamDecorator" />
+                <ComboBoxItem Content="MemoryStreamDecorator" />
+                <ComboBoxItem Content="BufferedStreamDecorator" />
+            </ComboBox>
         </Grid>
         <Grid Grid.Row="1">
             <Border CornerRadius="20" Background="LightGray" Margin="50,15,50,15" BorderBrush="Black" BorderThickness="3">
@@ -30,11 +35,6 @@
         <Grid Grid.Row="2">
             <Border CornerRadius="20" Background="LightGray" Margin="50,15,50,15" BorderBrush="Black" BorderThickness="3">
                 <TextBlock x:Name="SecondResultTextBlock" VerticalAlignment="Center" HorizontalAlignment="Center" FontWeight="Bold"/>
-            </Border>
-        </Grid>
-        <Grid Grid.Row="3">
-            <Border CornerRadius="20" Background="LightGray" Margin="50,15,50,15" BorderBrush="Black" BorderThickness="3">
-                <TextBlock x:Name="ThirdResultTextBlock" VerticalAlignment="Center" HorizontalAlignment="Center" FontWeight="Bold"/>
             </Border>
         </Grid>
     </Grid>
